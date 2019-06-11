@@ -91,17 +91,18 @@ A Docker registery is a library of pre-built images that can be 'pulled'.  For e
 Below is a very simple `Dockerfile`:
 
 ```
-FROM ubuntu:18.04
-RUN apt-get update -y && apt-get install -y vim
+FROM ubuntu:16.04
+RUN apt-get update -y && apt-get install -y python-minimal=2.7.12-1~16.04
 ```
 
-The `FROM` instruction specifies the base image to be used in the derived image. In this case, the base image is `ubuntu:18.04`. Look at the registry entry for this image https://hub.docker.com/_/ubuntu and the associated Ubuntu release description page http://releases.ubuntu.com/18.04/.
+The `FROM` instruction specifies the base image to be used in the derived image. In this case, the base image is `ubuntu:16.04`. Look at the registry entry for this image https://hub.docker.com/_/ubuntu and the associated Ubuntu release description page http://releases.ubuntu.com/18.04/.
 
 Questions:
 * What does this Dockerfile do?
-* What is `ubuntu` and what does `18.04` mean?
+* What is `ubuntu` and what does `16.04` mean?
+* Why do you whink Whole Tale, CodeOcean and Binder have adopted containers/Docker?
 
-Many researchers have adopted Docker images as a method of distributing their software and facilitating computational reproducibility. The compendium in **Example 1** above includes a `Dockerfile`.  Inspect it and consider the following questions:
+Many researchers have adopted Docker images as a method of distributing their software and facilitating computational reproducibility. The compendium in **Example 1** above includes a `Dockerfile` and an associate image .  Inspect it and consider the following questions:
 
 Questions:
 * Why did the authors decide to include this in the compendium?
