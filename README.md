@@ -9,3 +9,4 @@ Lessons:
 * [Creating Tales](3-compose-tale.md)
 * [Managing External Data](4-external-data.md)
 * [Exporting and Publishing](6-export-publish.md)
+* [Verification Exercise](7-verification-exercise.md)
