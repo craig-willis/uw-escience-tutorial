@@ -84,6 +84,8 @@ From https://www.docker.com/resources/what-container:
 
 A `Dockerfile` is a simple text file that contains instructions used to build a Docker image.
 
+A Docker registery is a library of pre-built images that can be 'pulled'.  For example, https://hub.docker.com.
+
 ### Activity: Exploring Dockerfiles
 
 Below is a very simple `Dockerfile`:
@@ -93,8 +95,11 @@ FROM ubuntu:18.04
 RUN apt-get update -y && apt-get install -y vim
 ```
 
+The `FROM` instruction specifies the base image to be used in the derived image. In this case, the base image is `ubuntu:18.04`. Look at the registry entry for this image https://hub.docker.com/_/ubuntu and the associated Ubuntu release description page http://releases.ubuntu.com/18.04/.
+
 Questions:
 * What does this Dockerfile do?
+* What is `ubuntu` and what does `18.04` mean?
 
 Many researchers have adopted Docker images as a method of distributing their software and facilitating computational reproducibility. The compendium in **Example 1** above includes a `Dockerfile`.  Inspect it and consider the following questions:
 
