@@ -4,9 +4,9 @@ Whole Tale hands-on tutorial material for University of Washington eScience Inst
 
 Lessons:
 * [Introduction](1-introduction.md)
-* [Accessing Whole Tale](1-access.md)
-* [Running Tales](2-running-tales.md)
-* [Creating Tales](3-compose-tale.md)
-* [Managing External Data](4-external-data.md)
+* [Accessing Whole Tale](2-access.md)
+* [Running Tales](3-running-tales.md)
+* [Creating Tales](4-compose-tale.md)
+* [Managing External Data](5-external-data.md)
 * [Exporting and Publishing](6-export-publish.md)
 * [Verification Exercise](7-verification-exercise.md)
